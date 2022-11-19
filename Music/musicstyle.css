@@ -1,0 +1,144 @@
+body
+{
+    background-image: url(./home_image/Two\ beautiful\ pink\ back\ lit\ tulips\ isolated\ on\ white\ background_.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    position: sticky;
+    background-position-y: 15vh;
+}
+.icon
+{
+    margin-top: 25vh;
+    width: 5%;
+    text-align: center;
+    display: grid;
+    gap: 10px;
+    position: absolute;
+    /* background-color: rgb(182, 176, 152);
+    padding: .5vh 0vh .5vh 0vh ;
+    /* border-radius: 10%; */
+    /* background-color: blue;
+    border-radius: 20px; */ */
+    
+    
+
+}
+body div div i
+{
+    /* padding: 20px; */
+    /* height: 50px; */
+    background-color: wheat;
+    border-radius: 50%;
+    padding: 2.3vh;
+    /* padding-top: 25%;
+    padding-bottom: 25%; */
+}
+body div div i:hover
+{
+    /* padding: 20px; */
+    /* height: 50px; */
+    background-color: hotpink;
+    border-radius: 50%;
+    padding: 2.3vh;
+    /* padding-top: 25%;
+    padding-bottom: 25%; */
+    cursor: pointer;
+}
+.Musiclist 
+{
+    display: inline-flex;
+    position: sticky;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+.musiclist
+{
+    background-color: rgb(248, 12, 126);
+    height: 170px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    opacity: 50%;
+}
+.musiclist:hover
+{
+    background-color: rgb(248, 12, 126);
+    height: 170px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    opacity: 60%;
+}
+@media all and (max-width: 500px)
+    {
+        .Musiclist{
+            overflow: scroll;
+            display: inline-block;
+            margin-left: 12vw;
+        }
+        body
+{
+    background-image: url(./music_image/Sign\ in.jpeg);
+    background-size: cover;
+    background-position-y: top;
+}
+.musiclist
+{
+    background-color: rgb(242, 246, 198);
+    height: 170px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    opacity: 50%;
+}
+.musiclist:hover
+{
+    background-color: rgb(242, 245, 151);
+    height: 170px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    opacity: 60%;
+}
+.musiclist:hover
+{
+    background-color: rgb(78, 158, 244);
+    height: 170px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    opacity: 60%;
+}
+body div div i:hover
+{
+    /* padding: 20px; */
+    /* height: 50px; */
+    background-color: rgb(105, 203, 255);
+    border-radius: 50%;
+    padding: 2.3vh;
+    /* padding-top: 25%;
+    padding-bottom: 25%; */
+    cursor: pointer;
+}
+    }
+
+    @media all and (max-width:950px) and (max-height:450px)
+{
+    .musiclist
+{
+    background-color: rgb(103, 156, 196);
+    height: 30vh;
+    width: 40vh;
+    margin: 20px;
+    border-radius: 10px;
+    opacity: 50%;
+   
+}
+    body{
+        background-image: url(./music_image/_\ \(1\).jpeg);
+        background-size: cover;
+        background-position-y: 0.3vh;
+    }
+}
